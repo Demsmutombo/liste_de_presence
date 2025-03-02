@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Présences - Réunion du 1er mars 2025</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to bottom, rgba(0, 0, 77, 0.8), rgba(107, 0, 54, 0.8)), 
+                        url('g.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row {
+            flex-grow: 1;
+            display: flex;
+            align-items: stretch;
+        }
+
+        .col-md-6 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .card-body {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .attendee-list {
+            width: 100%;
+            padding-left: 0;
+            list-style: none;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .attendee-card {
+            width: 90%;
+            background-color: #f8f9fa;
+            color: #333;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 5px 0;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 600px) {
+            .col-md-6 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="fw-bold">Liste des Présences - Réunion du Samedi 1er mars 2025</h1>
+        <p>Voici la liste des personnes présentes et absentes lors de la réunion du 1er mars 2025 :</p>
+        
+        <h4 class="mt-4">Total des personnes : 32</h4>
+        <br><br><br><br><br><br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <strong>Présents (19 personnes)</strong>
+                    </div>
+                    <div class="card-body">
+                        <ol class="attendee-list">
+                            <li class="attendee-card">1. Achile Kibambe</li>
+                            <li class="attendee-card">2. Patrick Tshala</li>
+                            <li class="attendee-card">3. Clarisse Ngoyi</li>
+                            <li class="attendee-card">4. Miriame Ntumba</li>
+                            <li class="attendee-card">5. Eunice Mwimbi</li>
+                            <li class="attendee-card">6. Rachel Bukasa</li>
+                            <li class="attendee-card">7. Charlotte Kibambe</li>
+                            <li class="attendee-card">8. Fidel Kibambe</li>
+                            <li class="attendee-card">9. Théo Mwimbi</li>
+                            <li class="attendee-card">10. Annita Kibambe</li>
+                            <li class="attendee-card">11. Nelly Kibambe</li>
+                            <li class="attendee-card">12. Tracy Mboshi</li>
+                            <li class="attendee-card">13. Blaise Nkolomoni</li>
+                            <li class="attendee-card">14. Nancy Ntambwe</li>
+                            <li class="attendee-card">15. Gauthier Kibambe</li>
+                            <li class="attendee-card">16. Assy Ngoyi</li>
+                            <li class="attendee-card">17. John Mukuna</li>
+                            <li class="attendee-card">18. Shekina Mwimbi</li>
+                            <li class="attendee-card">19. Israel Mwimbi</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-danger text-white">
+                        <strong>Absents (13 personnes)</strong>
+                    </div>
+                    <div class="card-body">
+                        <ol class="attendee-list">
+                            <li class="attendee-card">1. Tina Mukonkole</li>
+                            <li class="attendee-card">2. Petrony Mukonkole</li>
+                            <li class="attendee-card">3. Gaelle Kibambe</li>
+                            <li class="attendee-card">4. Fiston</li>
+                            <li class="attendee-card">5. Rafael Kibambe</li>
+                            <li class="attendee-card">6. Thethe Kibambe</li>
+                            <li class="attendee-card">7. Cledia Mukonkole</li>
+                            <li class="attendee-card">8. Eric Ntambwe</li>
+                            <li class="attendee-card">9. Jean Ntambwe</li>
+                            <li class="attendee-card">10. Grace Mboshi</li>
+                            <li class="attendee-card">11. Chacky Kibambe</li>
+                            <li class="attendee-card">12. Mike Mukonkole</li>
+                            <li class="attendee-card">13. Kalenda Mukonkole</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="mt-4">Merci à toutes les personnes présentes et absentes !</p>
+    </div>
+
+    <footer class="bg-white text-black text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">Bay <strong style="color: orange;">FWABANA UMOJA</strong>  © 2025 - Tous droits réservés</p>
+        </div>
+    </footer>
+
+</body>
+</html>
